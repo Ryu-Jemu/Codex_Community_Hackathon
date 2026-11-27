@@ -39,4 +39,4 @@ npm run preview
 - 2026년 10월 말 시도별 주민등록 인구를 지도 지표의 분모로 사용합니다. [행정안전부 주민등록 인구 월간현황](https://jumin.mois.go.kr/statMonth.do)
 - 지도 위치는 krmap의 16개 네모 타일에서 가져왔습니다. [지도 원본 및 라이선스](NOTICE.md)
 - 홈의 책방 사진은 ImageGen으로 제작한 시연용 생성 이미지입니다.
-- 색상, 카드 구조, 탭 선택 표시는 각각의 참고 자료를 바탕으로 화면에 적용했습니다. [팔레트](https://kr.pinterest.com/pin/1074319686130528829/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
+- 화면의 기본 팔레트는 BLUE `#C4DAE8`, BUTTER `#FEEFB8`, CHOCOPIE `#432F2E`입니다. [팔레트](https://kr.pinterest.com/pin/743375482288956123/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
