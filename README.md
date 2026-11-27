@@ -1,10 +1,10 @@
-# daily_warming
+# 따공 · 따뜻한 소식 공유
 
-이웃의 도움·감사·회복 이야기를 16개 광역 지역의 온기 지도에서 찾아 읽는 한국어 웹 앱입니다. Codex Community Hackathon – Seoul 시연용으로 만들었습니다. [기획 보고서](docs/planning-report.md) · [행사 안내](https://luma.com/p8l79x8m)
+이웃의 도움·감사·회복 이야기를 16개 광역 지역의 온기 지도에서 찾아 읽는 한국어 웹 앱입니다. Codex Community Hackathon – Seoul 시연용 프로젝트의 식별자는 `daily_warming`입니다. [기획 보고서](docs/planning-report.md) · [행사 안내](https://luma.com/p8l79x8m)
 
 ## 공개 시연
 
-[daily_warming 공개 시연](https://daily-warming.vercel.app)에서 로그인 없이 홈, 알림, 프로필, 지역별 소식, 대화 탭과 예시 콘텐츠를 둘러볼 수 있습니다. 지도에서 지역을 고르면 해당 지역의 글이 열립니다. 공개 시연은 읽기 전용입니다.
+[따공 공개 시연](https://daily-warming.vercel.app/)에서 로그인 없이 홈, 알림, 프로필, 지역별 소식, 대화 탭과 예시 콘텐츠를 둘러볼 수 있습니다. 지도에서 지역을 고르면 해당 지역의 글이 열립니다. 공개 시연은 읽기 전용입니다.
 
 ## 로컬 실행
 
@@ -39,4 +39,5 @@ npm run preview
 - 2026년 10월 말 시도별 주민등록 인구를 지도 지표의 분모로 사용합니다. [행정안전부 주민등록 인구 월간현황](https://jumin.mois.go.kr/statMonth.do)
 - 지도 위치는 krmap의 16개 네모 타일에서 가져왔습니다. [지도 원본 및 라이선스](NOTICE.md)
 - 홈의 책방 사진은 ImageGen으로 제작한 시연용 생성 이미지입니다.
+- 한국어 화면에는 Pretendard Variable 1.3.9를 직접 호스팅합니다. [공식 릴리스](https://github.com/orioncactus/pretendard/releases/tag/v1.3.9) · [SIL Open Font License 1.1](public/fonts/OFL-Pretendard.txt)
 - 화면의 기본 팔레트는 BLUE `#C4DAE8`, BUTTER `#FEEFB8`, CHOCOPIE `#432F2E`입니다. [팔레트](https://kr.pinterest.com/pin/743375482288956123/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
