@@ -1,6 +1,6 @@
-# 온기지도
+# daily_warming
 
-이웃의 도움·감사·회복 이야기를 16개 광역 지역에서 찾아 읽는 한국어 웹 앱입니다. Codex Community Hackathon – Seoul 시연용으로 만들었습니다. [기획 보고서](docs/planning-report.md) · [행사 안내](https://luma.com/p8l79x8m)
+이웃의 도움·감사·회복 이야기를 16개 광역 지역의 온기 지도에서 찾아 읽는 한국어 웹 앱입니다. Codex Community Hackathon – Seoul 시연용으로 만들었습니다. [기획 보고서](docs/planning-report.md) · [행사 안내](https://luma.com/p8l79x8m)
 
 ## 공개 시연
 
@@ -8,7 +8,7 @@
 
 ## 로컬 실행
 
-Node.js와 npm을 준비하세요. 실제 글 심사에는 `codex` CLI가 경로에 있고 사용 가능한 상태여야 합니다.
+Node.js와 npm을 준비하세요. 자동 테스트는 Node.js의 내장 TypeScript 실행을 사용하며, 시연 환경에서는 Node.js 23.11.0으로 확인했습니다. 실제 글 심사에는 `codex` CLI가 경로에 있고 사용 가능한 상태여야 합니다.
 
 ```bash
 npm ci
@@ -39,4 +39,4 @@ npm run preview
 - 2026년 10월 말 시도별 주민등록 인구를 지도 지표의 분모로 사용합니다. [행정안전부 주민등록 인구 월간현황](https://jumin.mois.go.kr/statMonth.do)
 - 지도 위치는 krmap의 16개 네모 타일에서 가져왔습니다. [지도 원본 및 라이선스](NOTICE.md)
 - 홈의 책방 사진은 ImageGen으로 제작한 시연용 생성 이미지입니다.
-- 색상, 카드 구조, 탭 선택 표시는 각각의 참고 자료를 바탕으로 온기지도 화면에 적용했습니다. [팔레트](https://kr.pinterest.com/pin/1074319686130528829/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
+- 색상, 카드 구조, 탭 선택 표시는 각각의 참고 자료를 바탕으로 화면에 적용했습니다. [팔레트](https://kr.pinterest.com/pin/1074319686130528829/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
