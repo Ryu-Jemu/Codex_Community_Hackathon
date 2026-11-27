@@ -31,6 +31,8 @@
 | <img src="docs/images/home.webp" width="175" alt="따공 홈의 최신·인기 소식 카드" /> | <img src="docs/images/admin-map.webp" width="175" alt="실제 행정 경계를 표시하는 따공 온기 지도" /> |
 | **노래 추천** | **로컬 게시 심사** |
 | <img src="docs/images/music.webp" width="175" alt="따공 노래 추천의 LP 카드와 검색" /> | <img src="docs/images/moderation.webp" width="175" alt="로컬 Codex 게시 심사 결과 화면" /> |
+| **예시 대화** | **LP 꾸미기** |
+| <img src="docs/images/chat.webp" width="175" alt="동네 화분을 함께 정리한 이웃과의 예시 대화" /> | <img src="docs/images/lp-editor.webp" width="175" alt="LP 색과 라벨 무늬를 바꾸는 편집기" /> |
 
 | 화면에서 하는 일 | 결과 |
 | --- | --- |
