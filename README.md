@@ -40,4 +40,4 @@ npm run preview
 - 지도 위치는 krmap의 16개 네모 타일에서 가져왔습니다. [지도 원본 및 라이선스](NOTICE.md)
 - 홈의 책방 사진은 ImageGen으로 제작한 시연용 생성 이미지입니다.
 - 한국어 화면에는 Pretendard Variable 1.3.9를 직접 호스팅합니다. [공식 릴리스](https://github.com/orioncactus/pretendard/releases/tag/v1.3.9) · [SIL Open Font License 1.1](public/fonts/OFL-Pretendard.txt)
-- 화면의 기본 팔레트는 BLUE `#C4DAE8`, BUTTER `#FEEFB8`, CHOCOPIE `#432F2E`입니다. [팔레트](https://kr.pinterest.com/pin/743375482288956123/) · [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
+- 화면은 첨부된 Chocolate truffle 팔레트 `#713600`, `#C05800`, `#FDFBD4`, `#38240D`를 사용합니다. [카드 구조](https://kr.pinterest.com/pin/791085490833305798/) · [탭 선택 표시](https://kr.pinterest.com/pin/627196685586474665/)
