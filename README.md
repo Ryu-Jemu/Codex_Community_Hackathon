@@ -66,6 +66,7 @@ npm run dev
 - **모바일 검증** · iPhone 17 Pro 시뮬레이터(iOS 26.5) Safari에서 홈 카드와 인기순 전환, 지도에서 지역 글 열기를 확인했습니다. 지역 글의 실제 Codex 승인·차단과 승인 글의 새로고침 후 유지, 노래 추천 글의 승인·카드 표시도 확인했습니다. [검증 기록](docs/planning-report.md#통합-검증-기록)
 - **공개 시연** · Vercel에서 예시 콘텐츠를 읽을 수 있습니다. 관심 지역·움직임 설정·LP 디자인은 현재 브라우저에 저장됩니다.
 - **로컬 시연** · 승인된 글과 추천, 공감, 알림 읽음 상태, 예시 대화는 현재 브라우저에 저장합니다. 홈의 대표 댓글은 예시 콘텐츠입니다.
+- **시연 계정** · 내 이야기 세 편, 알림 네 건, 노래 추천 두 편을 준비했습니다. 예시 대화 여섯 개에서 시작해 로컬에서 한 개를 더 보낼 수 있습니다.
 
 ## 기대 효과와 후속 실험
 
@@ -85,4 +86,4 @@ npm run preview
 
 React 19, TypeScript, Vite로 만든 `daily_warming`은 Vercel에서 `npm run build`를 실행해 `dist/`를 배포합니다. 실제 Codex 심사는 `npm run dev`의 로컬 브리지에서 실행합니다.
 
-화면은 반투명 유리 표면, 검은 캡슐 버튼, 노란 아이콘으로 구성했습니다. 책방과 시연 카드 사진은 생성 이미지이며, 글꼴은 Pretendard Variable 1.3.9입니다. [Miro 스타일 참고](https://miro.com/) · [하단 탐색 레퍼런스](https://pin.it/13JHa5dcg) · [에셋과 라이선스](NOTICE.md)
+상단 바와 하단 탭에 반투명 유리 효과를 적용했습니다. 글과 지도는 더 불투명한 바탕에서 읽을 수 있고, 투명도 줄이기와 고대비 설정도 지원합니다. 책방과 시연 카드 사진은 생성 이미지이며, 글꼴은 Pretendard Variable 1.3.9입니다. [Apple 소재 지침](https://developer.apple.com/design/human-interface-guidelines/materials) · [에셋과 라이선스](NOTICE.md)
