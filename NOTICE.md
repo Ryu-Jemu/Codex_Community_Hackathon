@@ -1,0 +1,4 @@
+# 지도와 인구 출처
+
+- 네모 타일 배치는 [worlyung/krmap의 현행 16개 시도 SVG](https://github.com/worlyung/krmap/blob/8d6b1df4628ed01fa44ab03ff052dd6d5b9e0d02/svg/06_%ED%83%80%EC%9D%BC/%EC%A0%84%EA%B5%AD_%EC%8B%9C%EB%8F%84_%EB%84%A4%EB%AA%A8.svg)의 사각형 위치와 축약명을 CSS 그리드 좌표로 옮겼습니다. 원본의 경계 데이터 출처는 통계청 SGIS 행정구역 경계(2026.10.01, 공공누리 제1유형)와 vuski/admdongkor 가공본(CC BY 4.0)입니다. [krmap 출처 및 라이선스](https://github.com/worlyung/krmap/blob/8d6b1df4628ed01fa44ab03ff052dd6d5b9e0d02/NOTICE.md)
+- 지역 이름, 행정기관코드와 인구는 행정안전부 주민등록 인구통계의 2026년 10월 말 전국 시도 CSV에서 가져왔습니다. 등록구분 ‘전체’의 총인구수는 거주자, 거주불명자 및 주민등록 재외국민을 포함하고 외국인은 제외합니다. [행정안전부 월간 통계표](https://jumin.mois.go.kr/statMonth.do) · [2026년 10월 CSV](https://jumin.mois.go.kr/downloadCsv.do?searchYearMonth=month&xlsStats=1&sltOrgType=1&sltOrgLvl1=A&searchYearStart=2026&searchMonthStart=10&searchYearEnd=2026&searchMonthEnd=10&sltOrderType=1&sltOrderValue=ASC&category=month&state=1)
